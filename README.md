@@ -1,9 +1,13 @@
 #SES Raw Email Sender
 This is some basic code to accompany a blog post on [sending raw email with attachments via Amazon SES API](http://www.arrow-web.co.uk/blog/2014/12/sending-raw-email-ses).
 
-It's not well structured, but shows how to send a raw email via the Amazon SES API.
+It's not well structured code, but shows how to send a raw email via the Amazon SES API.
 
 ###Getting it running
+Clone the repository.
+
+Run `composer install` from the project directory. (Or use Vagrant if you don't have composer)
+
 Open `index.php`, scroll down to the bottom and change lines 270-273, 276 and 279. You'll need to add your own SES details in here.
 
 You should then be able to run:
