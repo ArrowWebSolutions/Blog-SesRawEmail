@@ -268,4 +268,6 @@ Vagrant.configure("2") do |config|
   ##########
   # config.vm.provision "shell", path: "./local-script.sh"
 
+  config.vm.provision "shell", path: "./vagrant-provision-install-app.sh"
+
 end
