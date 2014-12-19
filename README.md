@@ -21,7 +21,7 @@ The project ships with a Vagrantfile and should provision itself thanks to [Vapr
 
 	vagrant up
 	
-From the project directory, let the box provision. Then hit [blog-ses.192.168.22.10.xip.io](blog-ses.192.168.22.10.xip.io) in your web browser.
+From the project directory, let the box provision. Then hit [http://blog-ses.192.168.22.10.xip.io](http://blog-ses.192.168.22.10.xip.io) in your web browser.
 
 Any questions let us know:
 
